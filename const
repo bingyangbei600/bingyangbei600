@@ -1,0 +1,13 @@
+import openConfig from './config/openConfig';
+import normalConfig from './config/normalConfig';
+import dynamicConfig from './config/dynamicConfig/dynamicConfig';
+
+// 在文件打开，还没有敲太多代码时才会响应的代码提示
+const openList: CompletionItem[] = [
+	openConfig.fc,
+	openConfig.imr,
+]
+
+————————————————
+版权声明：本文为CSDN博主「Mino.66」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/luoluoyang23/article/details/125027963
