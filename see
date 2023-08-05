@@ -1,0 +1,15 @@
+
+  /** 
+   * see BillingManager#refund(BillingInfo) 
+   */ 
+  public void refund(BillingInfo inBillingInfo) 
+      throws BillingException 
+  { 
+    if (REFUND_RESPONSE == EXCEPTION) 
+      throw new NullPointerException("Developer Null Pointer"); 
+ 
+    if (REFUND_RESPONSE == BILLING_EXCEPTION) 
+      throw new BillingException("Developer Billing Exception"); 
+  } 
+ 
+  /** 
