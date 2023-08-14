@@ -1,0 +1,8 @@
+}
+
+        /**
+         * ...method doSomething documentation comment...
+         */
+        public void doSomething() {
+            // ...implementation goes here...
+        }
